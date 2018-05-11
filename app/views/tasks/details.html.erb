@@ -1,0 +1,8 @@
+<h1>Task details: <%= @task.title %><hr><%= link_to 'Edit task', edit_task_path, class: "btn-sm btn-info" %></h1>
+
+<ul>
+  <p id="details">Details: <%= @task.details %></p>
+  <p><%= check_box_tag 'done', '1', @task.completed, class: "checkbox" %>This task is completed. </p>
+</ul>
+
+<%= link_to 'Go back to all tasks', tasks_path, class: "btn btn-info"%>
