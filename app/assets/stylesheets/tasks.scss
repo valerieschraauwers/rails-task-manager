@@ -12,10 +12,12 @@ h3 {
 
 ul {
   padding: 20px;
+  text-align: left;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: #1E8495;
+  text-align: left;
 }
 
 i {
@@ -33,4 +35,14 @@ i {
 #details {
   margin-left: 25px;
 }
+
+.form-control {
+  margin-left: 20px;
+}
+
+.form-group {
+  display: inline-block;
+}
+
+
 
